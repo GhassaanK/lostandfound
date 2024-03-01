@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import "./App.css";
+import Navbar from './components/Navbar';
+import Lost from './components/Lost';
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className='app container'>
+      <Navbar />
+      <Lost />
+    </div>
+  );
+};
 
-export default App
+export default App;
